@@ -1,0 +1,24 @@
+Algoritmo NUMERO_ENTERO
+	
+	//1. DEFINIR VARIABLES
+	
+	DEFINIR X ,NUM COMO ENTERO
+	
+	//2. INICIALIZAR VARIABLES
+	
+	Z=0;
+	NUM=0;
+	
+	//3. PROCESO
+	
+	ESCRIBIR " DIGITE UN NUMERO: " ;
+	LEER NUM;
+	
+	ESCRIBIR " LOS NUMEROS IMPARES MENORES SON: " ;
+	
+	PARA Z=NUM HASTA 0 CON PASO -1 HACER 
+		SI Z MOD 2=1 Entonces
+			ESCRIBIR " * " , Z;
+		FINSI
+	FinPara
+FinAlgoritmo

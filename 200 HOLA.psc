@@ -1,0 +1,22 @@
+Algoritmo PALABRA_HOLA
+	
+	//1.DEFINIR VARIABLES
+	
+	DEFINIR X COMO ENTERO
+	
+	DEFINIR MENSAJE Como CARACTER
+	
+	//2. INICIALIZAR VARIABLES
+	
+	MENSAJE= "HOLA"
+	
+	X=0;
+	
+	//3. PROCESO
+	
+	PARA X=1 HASTA 200 CON PASO 1 Hacer
+		ESCRIBIR X , ". " ,  MENSAJE;
+	FinPara
+FinAlgoritmo
+
+
